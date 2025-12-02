@@ -8,5 +8,5 @@ func main() {
 	
 	instagram, telefone := "@pizzaria_GO", 123456789
 	
-	fmt.Println(nomePizzaria, instagram, telefone)
+	fmt.Printf("Nome da pizzaria: %s (instagram: %s) - Telefone: %d", nomePizzaria, instagram, telefone)
 }
