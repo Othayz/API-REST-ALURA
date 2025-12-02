@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Pizzaria!")
+	
+	var nomePizzaria string = "Pizzaria GO"
+	
+	instagram, telefone := "@pizzaria_GO", 123456789
+	
+	fmt.Println(nomePizzaria, instagram, telefone)
 }
